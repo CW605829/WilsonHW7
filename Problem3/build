@@ -1,0 +1,7 @@
+#!/bin/bash
+config-pin p9.12 gpio
+config-pin p8.16 gpio_pu
+echo "pins have been configured"
+echo "Building MYGPIO applications"
+g++ -Wall myGpioApp.cpp myGpio.cpp -o myGpio
+echo "finished"

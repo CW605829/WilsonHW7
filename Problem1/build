@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo Building gpio_HIGH
+g++ GPIO_HIGH.cpp -o GPIO_HIGH
+echo Building gpio_LOW
+g++ GPIO_LOW.cpp -o GPIO_LOW
+echo Build complete

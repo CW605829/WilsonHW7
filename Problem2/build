@@ -1,0 +1,4 @@
+#!/bin/bash
+echo building LED_Button
+g++ LED_Button.cpp -o LED_Button
+echo build complete
